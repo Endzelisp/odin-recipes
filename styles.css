@@ -1,3 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100vh;
+  background: rgb(247,254,255);
+  background: linear-gradient(175deg, rgba(247,254,255,1) 16%, rgba(198,198,198,1) 89%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #fff;
+  background-color: rgba(255, 255, 255, 0.308);
+}
+
 .page-title, .food-list a, .descriptive-title {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
